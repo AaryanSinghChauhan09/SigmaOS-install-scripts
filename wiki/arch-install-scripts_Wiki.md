@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-install-scripts Component Wiki
+# SigmaOS-SigmaOS-install-scripts Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-install-scripts provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-install-scripts provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-install-scripts Abstraction
-- Fail-Fast on SigmaOS-arch-install-scripts Initialization Errors
-- Deterministic SigmaOS-arch-install-scripts Setup
-- Clear Abstraction Over SigmaOS-arch-install-scripts APIs
-- Composition over Inheritance for SigmaOS-arch-install-scripts extensions
+- SigmaOS-install-scripts Abstraction
+- Fail-Fast on SigmaOS-install-scripts Initialization Errors
+- Deterministic SigmaOS-install-scripts Setup
+- Clear Abstraction Over SigmaOS-install-scripts APIs
+- Composition over Inheritance for SigmaOS-install-scripts extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-install-scripts follows a SigmaOS-arch-install-scripts pattern:
-- **SigmaOS-arch-install-scripts Core**: Provides SigmaOS-arch-install-scripts support, SigmaOS-arch-install-scripts management, and SigmaOS-arch-install-scripts tracking
-- **Management**: Supports SigmaOS-arch-install-scripts management, SigmaOS-arch-install-scripts configuration, and SigmaOS-arch-install-scripts lifecycle
-- **Tracking**: Supports SigmaOS-arch-install-scripts status, SigmaOS-arch-install-scripts tracking, and SigmaOS-arch-install-scripts lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-install-scripts configurations or unsupported SigmaOS-arch-install-scripts types
+SigmaOS-SigmaOS-install-scripts follows a SigmaOS-install-scripts pattern:
+- **SigmaOS-install-scripts Core**: Provides SigmaOS-install-scripts support, SigmaOS-install-scripts management, and SigmaOS-install-scripts tracking
+- **Management**: Supports SigmaOS-install-scripts management, SigmaOS-install-scripts configuration, and SigmaOS-install-scripts lifecycle
+- **Tracking**: Supports SigmaOS-install-scripts status, SigmaOS-install-scripts tracking, and SigmaOS-install-scripts lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-install-scripts configurations or unsupported SigmaOS-install-scripts types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-install-scripts by given configuration
--  - Register a SigmaOS-arch-install-scripts by given name
--  - Get SigmaOS-arch-install-scripts status and SigmaOS-arch-install-scripts availability
--  - Track SigmaOS-arch-install-scripts management and SigmaOS-arch-install-scripts tracking
-- Error types for SigmaOS-arch-install-scripts failure scenarios or unsupported SigmaOS-arch-install-scripts types
+-  - Manage a SigmaOS-install-scripts by given configuration
+-  - Register a SigmaOS-install-scripts by given name
+-  - Get SigmaOS-install-scripts status and SigmaOS-install-scripts availability
+-  - Track SigmaOS-install-scripts management and SigmaOS-install-scripts tracking
+- Error types for SigmaOS-install-scripts failure scenarios or unsupported SigmaOS-install-scripts types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-install-scripts configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-install-scripts init, SigmaOS-arch-install-scripts management)
-3. **Assert**: Verify the expected SigmaOS-arch-install-scripts results
+1. **Arrange**: Set up test environment with specific SigmaOS-install-scripts configuration
+2. **Act**: Execute the code under test (SigmaOS-install-scripts init, SigmaOS-install-scripts management)
+3. **Assert**: Verify the expected SigmaOS-install-scripts results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-install-scripts initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-install-scripts failure scenarios
-- Unit tests provided for SigmaOS-arch-install-scripts management and configuration
-- Integration tests for full SigmaOS-arch-install-scripts system with actual SigmaOS-arch-install-scripts integration
+- SigmaOS-install-scripts initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-install-scripts failure scenarios
+- Unit tests provided for SigmaOS-install-scripts management and configuration
+- Integration tests for full SigmaOS-install-scripts system with actual SigmaOS-install-scripts integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-install-scripts types
-- Expand SigmaOS-arch-install-scripts capabilities (SigmaOS-arch-install-scripts features, SigmaOS-arch-install-scripts configurations, SigmaOS-arch-install-scripts tracking)
-- Add lifecycle features (SigmaOS-arch-install-scripts tracking, SigmaOS-arch-install-scripts lifecycle, SigmaOS-arch-install-scripts propagation)
-- Create integration tests with actual SigmaOS-arch-install-scripts systems and SigmaOS-arch-install-scripts integration
-- Implement SigmaOS-arch-install-scripts persistence and SigmaOS-arch-install-scripts state management
+- Add support for additional SigmaOS-install-scripts types
+- Expand SigmaOS-install-scripts capabilities (SigmaOS-install-scripts features, SigmaOS-install-scripts configurations, SigmaOS-install-scripts tracking)
+- Add lifecycle features (SigmaOS-install-scripts tracking, SigmaOS-install-scripts lifecycle, SigmaOS-install-scripts propagation)
+- Create integration tests with actual SigmaOS-install-scripts systems and SigmaOS-install-scripts integration
+- Implement SigmaOS-install-scripts persistence and SigmaOS-install-scripts state management

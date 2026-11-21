@@ -1,4 +1,4 @@
-# SigmaOS-arch-install-scripts
+# SigmaOS-install-scripts
 
 GitHub description is a placeholder; component scope remains unclassified.
 

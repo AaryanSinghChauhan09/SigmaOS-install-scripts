@@ -1,10 +1,10 @@
 [package]
-name = "sigmaos_arch_install_scripts"
+name = "sigmaos-install-scripts"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 
 [lib]
-name = "sigmaos_arch_install_scripts"
+name = "sigmaos_install_scripts"
 path = "src/lib.rs"

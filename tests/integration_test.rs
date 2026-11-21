@@ -1,8 +1,8 @@
-// Integration test for SigmaOS-arch-install-scripts
+// Integration test for SigmaOS-install-scripts
 // Verifies the crate builds and links as a dependency.
 #![allow(unused_imports)]
 
-use sigmaos_arch_install_scripts as _;
+use sigmaos_install_scripts as _;
 
 #[test]
 fn crate_links_and_runs() {

@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-install-scripts"
+name = "SigmaOS-install-scripts"
 tier = 2
 stability = "beta"
 language = "rust"

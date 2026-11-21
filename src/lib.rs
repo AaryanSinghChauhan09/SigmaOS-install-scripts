@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-//! SigmaOS-arch-install-scripts — scripted installation profiles, Arch-inspired.
+//! SigmaOS-install-scripts — scripted installation profiles, Arch-inspired.
 //!
 //! Models `archinstall`-style profiles: a disk partitioning plan, package
 //! selection, bootloader choice, and firmware mode. Validation is fail-fast —
